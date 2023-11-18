@@ -7,7 +7,6 @@ let name = "Ólafur Bjarki Bogason";
   # Shared shell configuration
   zsh.enable = true;
   zsh.autocd = false;
-  zsh.cdpath = [ "~/.local/share/src" ];
   zsh.plugins = [
     {
         name = "powerlevel10k";
