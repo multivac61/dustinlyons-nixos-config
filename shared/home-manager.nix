@@ -34,9 +34,6 @@ let name = "Ólafur Bjarki Bogason";
     # Remove history data we don't want to see
     export HISTIGNORE="pwd:ls:cd"
 
-    # Ripgrep alias
-    alias search=rg -p --glob '!node_modules/*'  $@
-
     # Emacs is my editor
     export ALTERNATE_EDITOR=""
     export EDITOR="emacsclient -t"
@@ -50,10 +47,6 @@ let name = "Ólafur Bjarki Bogason";
     shell() {
         nix-shell '<nixpkgs>' -A "$1"
     }
-
-    # pnpm is a javascript package manager
-    alias pn=pnpm
-    alias px=pnpx
 
     # Use difftastic, syntax-aware diffing
     alias diff=difft

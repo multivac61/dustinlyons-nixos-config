@@ -10,9 +10,6 @@ with pkgs; [
   bat
   btop
   coreutils
-  difftastic
-  du-dust
-  git-filter-repo
   killall
   neofetch
   openssh
@@ -22,7 +19,6 @@ with pkgs; [
   zip
 
   # Encryption and security tools
-  _1password
   age
   age-plugin-yubikey
   gnupg
